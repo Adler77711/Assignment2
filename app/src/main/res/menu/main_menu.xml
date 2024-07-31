@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_manage_tasks"
+        android:title="Choice 1"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_all_tasks"
+        android:title="All tasks"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_tasks_completed"
+        android:title="Tasks completed"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_tasks_uncompleted"
+        android:title="Tasks uncompleted"
+        app:showAsAction="never"/>
+
+</menu>
